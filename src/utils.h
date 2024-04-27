@@ -1,11 +1,11 @@
 #ifndef HELPER
 #define HELPER
-class Helper
-{
+
+class Utils {
   public:
-    static void hello_world()
-    {
+    void hello_world() {
       Serial.println("Hello, world!"); 
     }
 };
+
 #endif
